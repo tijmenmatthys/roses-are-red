@@ -13339,6 +13339,7 @@ GameObject:
   - component: {fileID: 635011843}
   - component: {fileID: 635011844}
   - component: {fileID: 635011845}
+  - component: {fileID: 635011846}
   m_Layer: 0
   m_Name: ManagerScripts
   m_TagString: Untagged
@@ -13471,6 +13472,24 @@ MonoBehaviour:
   _marigoldText: {fileID: 705043108}
   _lavenderText: {fileID: 1046173557}
   _jasmineText: {fileID: 386570906}
+--- !u!114 &635011846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635011840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34ab2548f9217a4b82dff419fed6f2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _saveScreenshotOnStart: 0
+  _saveScreenshotOnPressingS: 1
+  _delay: 1
+  _path: Export/
+  _fileName: Screenshot
+  _resolutionMultiplier: 2
 --- !u!4 &635069882 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1588153873999446461, guid: 89039f9cbd885414bab5f77bc8bea2d6, type: 3}
